@@ -1,0 +1,33 @@
+.page-wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 32px;
+    // background-color: #cfcfcf;
+  
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .list-wrap{
+    max-width: calc(100% - 250px);
+    .list-row{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 8px;
+    }
+  }
+  
+  .category-block{
+    margin-bottom: 100px;
+    .category-block__name{
+      font-size: 24px;
+      text-align: left;
+      text-transform: capitalize;
+      margin: 0px 32px;
+      font-weight: 500;
+    }
+  }
+  

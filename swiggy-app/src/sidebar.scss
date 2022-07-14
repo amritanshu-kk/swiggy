@@ -1,0 +1,32 @@
+.sidebar{
+    width: 250px;
+    background-color: #ffffff;
+    text-align: left;
+    .sidebar-content{
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 100px;
+      border-top: 1px solid #eaeaea;
+      border-left: 1px solid #eaeaea;
+      border-right: 1px solid #eaeaea;
+    }
+    .category-item{
+      padding: 16px;
+      text-transform: capitalize;
+      cursor: pointer;
+      border-bottom: 1px solid #eaeaea;
+      transition: all 0.1s fade;
+      &:hover{
+        background-color: #ededed;
+      }
+      &.--active{
+        background-color:#fa4a5b;
+        color: #ffffff;
+      }
+      .category-item__count{
+        font-size: 12px;
+        margin-top: 8px;
+        opacity: 0.6;
+      }
+    }
+  }
